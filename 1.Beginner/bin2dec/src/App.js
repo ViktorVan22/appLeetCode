@@ -1,9 +1,10 @@
 import "./App.scss";
+import { Converter } from "./components/converter";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="hello">Hello</h1>
+      <Converter />
     </div>
   );
 }

@@ -1,0 +1,1 @@
+const isValidate = input => {};
