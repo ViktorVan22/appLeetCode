@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.scss";
-
+import { MarkdownPreviewer } from "./components/markdown-previewer";
 function App() {
   return (
     <div className="App">
-      <h1>hello</h1>
+      <MarkdownPreviewer />
     </div>
   );
 }
